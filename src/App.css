@@ -1,0 +1,37 @@
+.container {
+  margin: 30px auto;
+  width: 1000px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.results-table thead th {
+  color: #5c6b77;
+  font-weight: 500;
+  white-space: nowrap;
+  background: rgba(0,0,0,.02);
+  font-size: 13px;
+}
+
+.results-table tbody td, .results-table thead th {
+  padding: 12px 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 7px 10px;
+  justify-content: center;
+}
+
+.header img {
+  height: 50px;
+}
+
+.header h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
